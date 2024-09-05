@@ -1,0 +1,229 @@
+/* Global styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+}
+
+.App {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="datetime-local"] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #f9f9f9;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #f8f9fa;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li:nth-child(odd) {
+  background: #e9ecef;
+}
+
+li button {
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background: #c82333;
+}
+
+.clock {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding: 15px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+/* Existing styles */
+
+.country-time {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.country-time label {
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.country-time select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #f9f9f9;
+}
+
+.country-time .clock {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #333;
+}
+/* Existing styles */
+
+.analog-clock {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+canvas {
+  border: 2px solid #333;
+  border-radius: 50%;
+  background: #fff;
+}
+/* Existing styles */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  height: 100vh; /* Full viewport height */
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center; /* Center text horizontally */
+}
+
+.analog-clock {
+  display: inline-block; /* Ensure it's centered horizontally */
+  border: 2px solid #333; /* Dark border */
+  border-radius: 50%; /* Make it circular */
+  background: #fff; /* White background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+  margin-bottom: 20px; /* Space below the clock */
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Existing styles */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  height: 100vh; /* Full viewport height */
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center; /* Center text horizontally */
+}
+
+.analog-clock {
+  display: inline-block; /* Ensure it's centered horizontally */
+  border: 2px solid #333; /* Dark border */
+  border-radius: 50%; /* Make it circular */
+  background: #fff; /* White background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+  margin-bottom: 20px; /* Space below the clock */
+}
+.analog-clock {
+  display: inline-block; /* Ensure it's centered horizontally */
+  border: 2px solid #333; /* Dark border */
+  border-radius: 50%; /* Make it circular */
+  background: #fff; /* Fallback color if image fails to load */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+  margin-bottom: 20px; /* Space below the clock */
+}
+
+
